@@ -1,0 +1,27 @@
+*{
+   font-family: cursive;
+}
+
+
+body{
+    background-color: pink !important;
+}
+
+h1{
+    background-color: blue;
+}
+
+p{
+    background-color: green;
+}
+
+#blood{
+    background-color: maroon;
+    color: red;
+    padding: 50px;
+}
+
+.cloud{
+    background-color: darkblue;
+    color: white;
+}

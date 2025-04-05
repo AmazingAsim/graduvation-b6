@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form action="https://jsonplaceholder.typicode.com/users" method="post" target="_blank" >
+       <label for="name">Name</label>
+       <input id="name" type="text" placeholder="Enter your name" name="name">
+
+       <label for="email">Email:</label>
+       <input type="email" placeholder="Enter your Email" name="email" >
+
+       <label for="email">Password:</label>
+       <input type="password" placeholder="Enter your Password" name="Password" >
+
+        <h5>Gender</h5>
+        <label for="male">Male:</label> <input type="radio" name="gender" value="male" id="male">
+        <label for="female">Female:</label> <input type="radio" name="gender" value="female" id="female">
+
+        <h5>Hobbies</h5>
+        <label for="cricket">Cricket</label> <input id="cricket" type="checkbox" name="Hobbies" value="cricket">
+        <label for="chess">Chess</label> <input type="checkbox" name="Hobbies" value="chess">
+        <label for="dancing">Dancing</label> <input type="checkbox" name="Hobbies" value="dancing">
+
+        <select name="work" id="work">
+            <option value="remote">remote</option>
+            <option value="class">class</option>
+        </select>
+
+        <label for="dob">Dob</label>
+        <input type="date" name="dob" id="dob">
+
+       <button type="submit">Submit</button>
+
+
+   </form>
+</body>
+</html>
