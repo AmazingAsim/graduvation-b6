@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header h2{
+    background-color: yellow;
+}
+
+header>h2{
+    background-color: red;
+}
+header>h2+p{
+    background-color: blue;
+}
+
+/* css box modal */
+
+/* height,width,padding,border,margin */
+#box{
+    height: 200px;
+    width: 200px;
+    border:50px solid purple;
+    background-color: red;
+    padding:100px;
+
+    margin:auto;
+}
+
+header{
+    padding: 50px;
+    background-image:url('https://cdn11.bigcommerce.com/s-x49po/images/stencil/1500x1500/products/75054/257824/1629380557732_IMG_20210816_152148__94104.1687165305.jpg?c=2');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body{
+    height: 2000px;
+}
+
+#asim div{
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    margin:20px auto;
+}
+
+#g1{
+    background-image: linear-gradient(45deg,orange,red,blue,green,yellow);
+}
+#g2{
+    background-image: repeating-linear-gradient(45deg,black 10px,cyan 20px);
+}
+#g3{
+    background-image: repeating-linear-gradient(45deg,black 20px 40px,cyan 40px 60px);
+}
+
+#g4{
+    background-image: radial-gradient(circle,orange,red,blue,green,yellow);
+}
+
+#g5{
+    background-image: repeating-radial-gradient(circle,black 40px,cyan 80px);
+}
+#g6{
+    background-image: repeating-radial-gradient(circle,black 40px 80px,cyan 80px 120px);
+}
+
+#g7{
+    background-image: conic-gradient(orange,red,blue,green,yellow,orange);
+}
+#g8{
+    background-image: repeating-conic-gradient(black 40deg,cyan 80deg);
+}
+#g9{
+    background-image: repeating-conic-gradient(black 40deg 80deg,cyan 80deg 120deg);
+}
+
+
+/* // display property --> block,inline,inline-block,flex,grid,none */
+
+#box{
+    display: block;
+}
+
+.flexbox{
+    padding: 10px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 50vh;
+    gap:10px;
+    overflow-x: scroll;
+
+}
+.flexitem{
+    padding: 10px;
+    background-color: lightblue;
+    width: 300px;
+    flex-shrink: 0;
+}

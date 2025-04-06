@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 10px;
+    background-color: yellowgreen;
+}
+
+.flexbox{
+    display: flex;
+    height: 80vh;
+}
+aside{
+    padding: 10px;
+    background-color: lightgray;
+    width: 200px;
+}
+main{
+    background-color: lightseagreen;
+    flex:1;
+}
+
+footer{
+    padding: 10px;
+    background-color: yellowgreen;
+}
+
+header{
+    padding: 50px;
+    text-align: center;
+    background-color: coral;
+    color: white;
+    overflow: hidden;
+    height: 50vh;
+}
+
+img{
+    width: 500px;
+    object-fit: contain;
+}
