@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: silver;
+    height: 100vh;
+}
+
+.flexbox{
+    display: flex;
+    margin:10px 30px;
+}
+
+img{
+    width: 100%;
+}
+
+.innerbox{
+   overflow-y: scroll;
+}
