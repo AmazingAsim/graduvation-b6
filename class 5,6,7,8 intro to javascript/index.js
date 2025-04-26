@@ -218,10 +218,29 @@
 
 // mainheader.appendChild(h1)
 
-function fun(){
-    document.body.style.background = 'peachpuff'
-}
+// function fun(){
+//     document.body.style.background = 'peachpuff'
+// }
 
-function colorMe(event){
-    document.body.style.background = event.target.value
+// function colorMe(event){
+//     document.body.style.background = event.target.value
+// }
+
+// let buttons = document.querySelectorAll('button')
+
+// for(let i of buttons){
+//     i.addEventListener('click',fun)
+// }
+
+// localStorage and session api in javascript 
+
+let name = localStorage.getItem('name') || prompt('Enter your name');
+let namebox = document.getElementById('name')
+namebox.innerHTML = name
+
+localStorage.setItem('name',name)
+
+function logout(){
+    localStorage.removeItem('name')
+    location.reload()
 }

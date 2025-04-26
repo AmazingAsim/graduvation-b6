@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 80px 0px;
+    background-image: url('https://cdn4.vectorstock.com/i/1000x1000/50/13/time-management-poster-with-businessman-vector-17865013.jpg');
+    background-position: 0px -500px;
+    background-size: cover;
+    text-shadow: 1px 1px 2px black;
+    font-size: 2rem;
+    
+}
+
+#formbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    width: 70%;
+    margin: 10px auto;
+}
+
+input{
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px blue;
+    border:none;
+}
+
+#formbox button{
+    width: 100px;
+    padding: 15px;
+    border-radius: 10px;
+    background:green;
+    color: white;
+    border:none;
+    box-shadow: 0px 0px 2px blue;
+    cursor: pointer;
+}
+
+#formbox button:active{
+    background:lightgreen;
+}
+
+
+
+
+
+#taskbox{
+    margin-top: 50px;
+}
+
+#taskbox div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#taskbox div button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background:red;
+    color: white;
+    box-shadow: 0px 0px 2px blue;
+    cursor: pointer;
+}
+
