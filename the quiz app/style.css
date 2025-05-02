@@ -75,3 +75,51 @@ header{
     box-shadow: 0px 0px 10px grey;
     border-radius: 10px;
 }
+
+
+#qbox{
+    width:70%;
+    margin:30px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#qbox div h3{
+  padding: 20px;
+  font-size: 30px;
+}
+
+#qbox div button{
+   padding:10px 20px;
+   background-color: cyan;
+   border-radius: 10px;
+   border: none;
+   margin: 10px;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+#qbox div button:hover{
+    box-shadow: 0px 0px 10px cyan;
+}
+
+#submitbox{
+    width:70%;
+    margin:30px auto;
+    padding: 20px;
+    
+}
+
+#submitbox button{
+    padding: 10px;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
