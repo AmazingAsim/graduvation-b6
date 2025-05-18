@@ -1,1 +1,10 @@
-@import url('../node_modules/bootstrap')
+@import url('../node_modules/bootstrap');
+
+#carouselId{
+    height: 30vh;
+}
+
+#carouselId img{
+    height: 30vh;
+    object-fit: cover;
+}

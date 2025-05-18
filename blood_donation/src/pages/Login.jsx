@@ -1,6 +1,6 @@
 import { Link,useNavigate } from 'react-router-dom'
 import logo from '../assets/logo.png'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 export default function Login() {
     let dummyEmail = 'a@gmail.com';
     let dummyPassword = '0000';
@@ -9,6 +9,12 @@ export default function Login() {
     const [password,setPassword] = useState('');
     const [errorMessage,setErrorMessage] = useState('');
     let navigate  = useNavigate();
+
+    useEffect(function(){
+        if(localStorage.getItem('islogin')){
+            navigate('/dashboard')
+        }
+    },[])
     function login(){
         if(email === dummyEmail && password === dummyPassword){
             localStorage.setItem('email',email);
